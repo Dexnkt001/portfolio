@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(32, 32, 32);
+}
+
+.Portfolio{
+    text-align: center;
+    color:rgb(255, 2, 129);
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 65px;
+}
+
+.header{
+    display: flex;
+    width: 70%;
+    margin:auto auto;
+    margin-top: 3%;
+    background: white;
+    border-radius:20px;
+}
+
+
+.header img{
+border-radius: 50%;
+margin-left:5%;
+margin-top: 10px;
+margin-bottom: 10px;
+height: 150px;
+width: 180px;
+}
+
+.header_info{
+    margin-left:10%;
+    margin-top: 10px;
+}
+
+.name{
+    display: block;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+}
+
+.contact{
+    display:block;
+    margin-top:5%;
+}
+
+.contact a{
+    display: block;
+    font-weight: 700;
+    font-size: 25px;
+    color:rgb(255, 0, 200);
+}
+
+.education{
+    width: 70%;
+    margin:auto auto;
+    margin-top: 5%;
+    background: white;
+    border-radius:20px;
+}
+
+.Education{
+    display: block;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 5%; 
+}
+
+.list{
+    display: block;
+    margin-left: 5%;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+li{
+    margin-top: 5px;
+}
